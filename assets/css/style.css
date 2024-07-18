@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1d1e22;
+}
+
+.container {
+    background: #1d1f23;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 90px 70px 90px;
+    box-shadow: 0 4.5px 3.1px rgba(0, 0, 0, 0.82),
+        0 12.5px 8.6px rgba(0, 0, 0, 0.111),
+        0 30.1px 20.8px rgba(0, 0, 0, 0.136),
+        0 100px 69px rgba(0, 0, 0, 0.2);
+}
+
+.container .back {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.container .back img {
+    width: 100%;
+}
+
+.container .heading {
+    background: #ffffff;
+    padding: 80px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.container .heading h3 {
+    width: 100%;
+    font-size: 1.8em;
+    font-weight: 900;
+    color: #1d1e22;
+    padding-bottom: 15px;
+}
+
+.container .heading hr {
+    margin-bottom: 0.8em;
+    width: 10%;
+    height: 4px;
+    background: #000000;
+
+}
+
+.container .heading p {
+    width: 100%;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #2c2b2b;
+    letter-spacing: 0.2em;
+    word-spacing: 0.3em;
+    line-height: 1.8em;
+}
+
+.container .details {
+    width: 100%;
+    background: #f4f4f4;
+    padding: 100px;
+
+
+}
+
+.container .details p {
+    font-size: 0.8em;
+    width: 100%;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    word-spacing: 0.3em;
+    line-height: 1.8em;
+    color: #1d1e22;
+}
+
+.container .gallery {
+    margin: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.container .gallery .head {
+    background: #121315;
+    width: 80%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container .gallery .head h3 {
+    width: 100%;
+    font-size: 1.8em;
+    font-weight: 900;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+.container .gallery .head hr {
+    margin-bottom: 0.8em;
+    width: 10%;
+    background: #fcfcfc;
+    height: 4px;
+
+}
+
+.container .gallery .head p {
+    width: 100%;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #cac6c6;
+    letter-spacing: 0.2em;
+    word-spacing: 0.3em;
+    line-height: 1.8em;
+}
+
+.container .gallery .img-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+
+
+}
+
+.container .gallery .img-gallery .img-1 {
+    width: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container .gallery .img-gallery .img-1 img {
+    width: 100%;
+}
+
+.container .box {
+    width: 100%;
+    margin: 70px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container .box .box1,
+.container .box .box2,
+.container .box .box3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.container .box .box1 .img-box,
+.container .box .box2 .img-box,
+.container .box .box3 .img-box,
+.container .box .box1 .box-details,
+.container .box .box2 .box-details,
+.container .box .box3 .box-details {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    text-align: justify;
+
+}
+
+.container .box .box1 .box-details h3,
+.container .box .box2 .box-details h3,
+.container .box .box3 .box-details h3 {
+    font-family: rubik;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.container .box .box1 .box-details p,
+.container .box .box2 .box-details p,
+.container .box .box3 .box-details p {
+    font-family: rubik;
+    font-size: 1em;
+    font-weight: 400;
+    color: #857f7f;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 20px;
+
+}
+
+.container .box .box1 .box-details,
+.container .box .box2 .box-details,
+.container .box .box3 .box-details {
+    padding: 0 90px;
+}
+
+.container .box .box1 .img-box img,
+.container .box .box2 .img-box img,
+.container .box .box3 .img-box img {
+    width: 100%;
+}
+
+.container .follow .items {
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.container .follow .items li {
+    display: inline-block;
+}
+.container .follow .items li i
+{
+    font-size: 50px;
+    color: #fff;
+}
+
+.container .follow .items li a {
+    display: inline-block;
+    margin: 0 10px;
+}
